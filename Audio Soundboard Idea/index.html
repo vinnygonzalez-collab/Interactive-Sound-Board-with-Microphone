@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0d12">
+    <meta name="description" content="A focused audio studio for playing synthesized sounds and exploring live audio visualizations.">
+    <title>Audio Studio — Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="brand">
+                <span class="brand-mark" aria-hidden="true">A</span>
+                <span class="brand-name">AUDIO<span>STUDIO</span></span>
+            </div>
+            <span class="header-status"><span class="status-dot"></span> AUDIO WORKSPACE</span>
+        </header>
+
+        <section class="welcome-screen" id="welcome-screen" aria-labelledby="welcome-title">
+            <img
+                class="welcome-image"
+                src="../images/images.jpg"
+                alt="Audio mixing board with rows of knobs, sliders, and buttons."
+                width="400"
+                height="400"
+            >
+            <div class="welcome-content">
+                <p class="eyebrow">YOUR CREATIVE SPACE</p>
+                <h1 id="welcome-title">Make some noise.</h1>
+                <p class="intro-copy">Explore the soundboard, shape a sound, and find your rhythm.</p>
+                <button class="get-started-button" id="get-started" type="button">
+                    Get Started <span aria-hidden="true">→</span>
+                </button>
+            </div>
+        </section>
+
+        <main id="studio" hidden>
+            <section class="intro" aria-labelledby="page-title">
+                <div>
+                    <p class="eyebrow">SOUND DESIGN / 01</p>
+                    <h1 id="page-title">Soundboard</h1>
+                    <p class="intro-copy">Shape a sound. Find your rhythm.</p>
+                </div>
+                <p class="intro-hint">Select a pad or use your keyboard<br><kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>F</kbd></p>
+            </section>
+
+            <section class="visualizer-section" aria-labelledby="visualizer-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">LIVE SIGNAL</p>
+                        <h2 id="visualizer-title">Frequency visualizer</h2>
+                    </div>
+                    <span class="live-indicator"><span class="status-dot"></span> READY</span>
+                </div>
+                <div class="visualizer-container">
+                    <canvas id="visualizer" aria-label="Live audio frequency visualization"></canvas>
+                    <span class="visualizer-label">AUDIO OUTPUT</span>
+                </div>
+            </section>
+
+            <section class="pads-section" aria-labelledby="pads-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">YOUR INSTRUMENTS</p>
+                        <h2 id="pads-title">Trigger a sound</h2>
+                    </div>
+                    <span class="pad-count">04 PADS</span>
+                </div>
+                <div class="soundboard" id="soundboard"></div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <span>Built for experimentation.</span>
+            <span class="footer-mark">AS — 01</span>
+        </footer>
+    </div>
+</body>
+</html>
