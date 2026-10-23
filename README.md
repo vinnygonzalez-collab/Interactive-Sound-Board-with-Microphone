@@ -17,7 +17,6 @@ The soundboard features a central circular visualizer that bridges the gap betwe
 
 • JavaScript (ES6): Event listeners, functions, DOM manipulation, and Audio Web API
 
-#interactiveaudiovisualizer 
-#audio-recording
+
 
 
