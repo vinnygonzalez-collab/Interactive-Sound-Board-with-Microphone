@@ -1,4 +1,7 @@
-🎨 [Live Demo Link] · 🐛 [Report Bug] · ✨ [Request Feature]
+
+🎨 [Live Demo Link: https://mixsoundboard.netlify.app] · 
+🐛 [Report Bug] · 
+✨ [Request Feature]
 
 
 🎛️ Dynamic Audio Visualizer
