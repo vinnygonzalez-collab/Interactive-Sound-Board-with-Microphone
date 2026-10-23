@@ -12,7 +12,9 @@ The soundboard features a central circular visualizer that bridges the gap betwe
 🛠️ Tech Stack
 
 • HTML5: Semantic structure and audio element integration.
+
 • CSS3: Flexbox/Grid layout, custom properties (variables), and smooth transition animations.
+
 • JavaScript (ES6): Event listeners, functions, DOM manipulation, and Audio Web API
 
 #interactiveaudiovisualizer 
